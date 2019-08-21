@@ -1,0 +1,24 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jest/all",
+    "prettier/@typescript-eslint",
+    "prettier/babel"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {},
+  "plugins": [
+    "@typescript-eslint",
+    "jest",
+    "prettier",
+    "@typescript-eslint",
+    "babel"
+  ],
+  "env": {
+    "jest/globals": true
+  }
+}
